@@ -1,0 +1,247 @@
+/*ESTILOSGENERALES*/
+html{
+    font-family: system-ui;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* Hero */
+.hero{
+  background: url(imagen.jpg) center;
+  background-size: cover;
+  height: 100vh;
+  }
+/* Menu Header Restaurante */
+ 
+header.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+   
+  .cabecera{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    z-index: 999;
+  }
+   
+  .nombrerestaurante{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+  }
+   
+  .nombre{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #222;
+  }
+   
+  .inicio{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+   
+  .nav-wrap-header{
+    display: flex;
+    flex-basis: 50%;
+  }
+   
+  ul.main-menu{
+    display: flex;
+    width: 100%;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+   
+  ul.main-menu #nav-main-contact{
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: #FFC300;
+    color: #fff;
+  }
+   
+  li.menu-item{
+    margin: .75rem;
+    display: flex;
+  }
+   
+  i.toggle-menu{
+    display: none;
+    background-color: #fff;
+    border: none;
+    z-index: 9999;
+  }
+   
+  i.toggle-menu img{
+    width: 27px;
+    z-index: 99;
+  }
+
+
+
+
+
+  /* Tarjetas de Comida */
+.section{
+    max-width: 1200px;
+    margin: 8rem auto;
+    padding: 1rem;
+  }
+  
+  .column-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .column-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    
+  }
+  
+  .tarjeta-rest{
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 6px;
+    padding: 1rem .5rem;
+    display: flex;
+    align-items: end;
+  }
+  .wrap-text_tarjeta-rest{
+    color: #fff;
+    padding: .5rem;
+    border-radius: 6px;
+    background:linear-gradient(to top, rgb(0 0 0 / .5), rgb(0 0 0 / .5));
+  }
+  
+  .wrap-text_tarjeta-rest p{
+    color: #f2f2f2;
+  }
+  .cta-wrap_tarjeta-rest{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .precio_tarjeta-rest span{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .cta_tarjeta-rest{
+    background-color: var(--main-c);
+    padding: .25rem 1rem;
+    border-radius: 4px;
+  }
+  .cta_tarjeta-rest a{
+    color: #fff;
+    font-weight: bold;
+  }
+  .tarjeta{
+    font-size: 30px;
+    border: 3px solid #FFC300;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    background: #ffffff;  
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+  }
+  button{
+    font-size: 20px;
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+  
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+     border: 2px solid #FFC300;
+    border-radius: 15px;  
+  }
+  button:hover{
+    background: #FFC300;
+    color: #f5f5f5;
+  }
+  .tarjeta-rest1{
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 6px;
+    padding: 5rem .1000rem;
+    align-items: end;
+    text-align: center;
+  }
+
+  /************************
+
+Footer
+
+************************/
+footer{
+    background-color: #fff;
+    color: var(--second-c);
+  }
+  footer ul{
+    padding:0;
+  }
+  footer li{
+    list-style: none;
+  }
+  .wrap-footer{
+    display: grid;
+    grid-template-columns: 30% 15% 15% 20%;
+    column-gap: 5%;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+  .logo-element_footer{
+    display: flex;
+    margin: 2rem 0;
+  }
+  .logo-element_footer img{
+    max-height: 75px;
+  }
+  .element-footer h5{
+    margin: 1rem 0;
+  }
+  .text-element-footer li{
+    line-height: 2;
+  }
+  .link-elements-footer li a{
+    color:#FFC300;
+  }
+  .rrss-element-footer ul{
+    display: flex;
+    flex-flow: wrap;
+  }
+  .rrss-element-footer img{
+    width: 35px;
+  }
+  .rrss-element-footer li{
+    margin-right: 1rem;
+  }
+
+
+  
